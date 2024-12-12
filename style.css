@@ -60,6 +60,25 @@ body {
     fill: currentColor;
 }
 
+/* Figma Logo styles */
+.figma-logo .icon svg {
+    width: 24px;
+    height: 36px;
+}
+
+.figma-logo.nav-item {
+    margin-bottom: 1rem;
+}
+
+.figma-logo.nav-item:hover {
+    background: none;
+}
+
+.figma-logo.nav-item .icon {
+    width: 32px;
+    height: 48px;
+}
+
 /* Main Content */
 .content {
     flex: 1;
